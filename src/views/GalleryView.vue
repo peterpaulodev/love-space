@@ -69,7 +69,7 @@ const selectButton = (buttonName) => {
           <div v-for="i in 11" :key="i">
             <img
               class="h-auto max-w-full rounded-lg"
-              :src="`src/assets/images/we-pics/pics/${i}.jpg`"
+              :src="`/images/we-pics/pics/${i}.jpg`"
               :alt="`Imagem ${i}`"
             />
           </div>
@@ -78,7 +78,7 @@ const selectButton = (buttonName) => {
           <div v-for="i in 5" :key="i">
             <video
               class="h-auto max-w-full rounded-lg"
-              :src="`src/assets/images/we-pics/videos/${i}.mp4`"
+              :src="`/images/we-pics/videos/${i}.mp4`"
               controls
               :alt="`Vídeo ${i}`"
             ></video>
@@ -88,7 +88,7 @@ const selectButton = (buttonName) => {
           <div v-for="i in 5" :key="i">
             <img
               class="h-auto max-w-full rounded-lg"
-              :src="`src/assets/images/we-pics/wallpapers/${i}.jpg`"
+              :src="`/images/we-pics/wallpapers/${i}.jpg`"
               :alt="`Imagem ${i}`"
             />
           </div>

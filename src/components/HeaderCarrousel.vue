@@ -62,11 +62,11 @@ const images = ref([
     caption: 'Ou o quanto esse abraço me ajudou...',
   },
   {
-    src: 'src/assets/images/we-pics/pics/6.jpg',
+    src: '/images/we-pics/pics/6.jpg',
     caption: 'Mas quero que você saiba que para mim, era dar uma chance para o amor...',
   },
   {
-    src: 'src/assets/images//we-pics/pics/9.jpg',
+    src: '/images//we-pics/pics/9.jpg',
     caption: 'E tudo isso só foi possível porque é com VOCÊ!',
   },
 ])
