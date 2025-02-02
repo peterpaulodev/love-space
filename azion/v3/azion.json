@@ -1,0 +1,58 @@
+{
+  "name": "serene-microscope",
+  "bucket": "serene-microscope",
+  "preset": "vue",
+  "env": "production",
+  "prefix": "20250202152749",
+  "not-first-run": true,
+  "function": {
+    "id": 37931,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/v3/args.json",
+    "instance-id": 36358,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1738525784,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1738526654,
+    "name": "serene-microscope",
+    "domain_name": "x9na84ucw9.map.azionedge.net",
+    "url": "https://x9na84ucw9.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 188272,
+      "origin-key": "4db4a1f4-8bb2-4664-ab0c-e92ce5f43007",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 359987,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 359988,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 359989,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}

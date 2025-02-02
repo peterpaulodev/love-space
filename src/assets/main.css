@@ -1,0 +1,103 @@
+@import 'tailwindcss';
+@config "../../tailwind.config.js";
+@import './infinite-hearts.css';
+
+@layer utilities {
+  .gradient-top::before,
+  .gradient-bottom::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px; /* Ajuste a altura conforme necessário */
+    z-index: 1;
+  }
+
+  .gradient-top::before {
+    top: -50px; /* Ajuste para que o degradê comece fora da figure */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
+  }
+
+  .gradient-bottom::after {
+    bottom: -50px; /* Ajuste para que o degradê termine fora da figure */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), transparent);
+  }
+}
+
+#bg-polaroid {
+  background: url('./images/bg-polaroid.jpg') center center / cover no-repeat;
+  background-blend-mode: multiply !important;
+  background-color: var(--color-gray-600) !important;
+  background-attachment: fixed;
+}
+#bg-polaroid-pink {
+  background: url('./images/bg-polaroid-2.jpg') center center / cover no-repeat;
+  background-blend-mode: multiply !important;
+  background-color: #f6a7af !important;
+  background-attachment: fixed;
+}
+#bg-polaroid-pink-2 {
+  background: url('./images/bg-polaroid.jpg') center center / cover no-repeat;
+  background-blend-mode: multiply !important;
+  background-color: #f6a7af !important;
+  background-attachment: fixed;
+}
+#bg-polaroid-2 {
+  background: url('./images/bg-polaroid-2.jpg') center center / cover no-repeat;
+  background-blend-mode: multiply !important;
+  background-color: var(--color-gray-600) !important;
+  background-attachment: fixed;
+}
+#bg-polaroid-3 {
+  background: url('./images/bg-polaroid-3.jpg') center center / cover no-repeat;
+  background-blend-mode: multiply !important;
+  background-color: var(--color-gray-600) !important;
+  background-attachment: fixed;
+}
+#bg-polaroid-4 {
+  background: url('./images/bg-polaroid-4.jpg') center center / cover no-repeat;
+  background-blend-mode: multiply !important;
+  background-color: var(--color-gray-600) !important;
+  background-attachment: fixed;
+}
+
+body {
+  background: url(https://subtlepatterns.com/patterns/noise_lines.png);
+  /* font-family: 'Pacifico', cursive; */
+  color: #fff;
+  height: 100vh;
+}
+
+#app {
+  height: 100vh;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0;
+}
+
+.scale-slide-enter-active,
+.scale-slide-leave-active {
+  position: absolute;
+  transition: all 0.85s ease;
+}
+
+.scale-slide-enter-from {
+  left: -100%;
+}
+
+.scale-slide-enter-to {
+  left: 0%;
+}
+
+.scale-slide-leave-from {
+  transform: scale(1);
+}
+
+.scale-slide-leave-to {
+  transform: scale(0.8);
+}
