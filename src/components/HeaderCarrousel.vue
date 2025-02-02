@@ -54,11 +54,11 @@ defineOptions({
 
 const images = ref([
   {
-    src: 'src/assets/images/header-background.jpg',
+    src: '/images/header-background.jpg',
     caption: 'E talvez você não saiba, o quanto nossas mãos dadas nesse dia significou para mim...',
   },
   {
-    src: 'src/assets/images/header-background-2.jpg',
+    src: '/images/header-background-2.jpg',
     caption: 'Ou o quanto esse abraço me ajudou...',
   },
   {
