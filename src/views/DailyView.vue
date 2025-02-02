@@ -37,7 +37,7 @@ setInterval(function () {
       heart.parentNode.removeChild(heart)
     }
   })
-}, 3000)
+}, 1000)
 
 const actualDate = new Date()
 const dayNumber = actualDate.getDate()

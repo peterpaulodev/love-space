@@ -9,7 +9,7 @@ import BackButton from '@/components/BackButton.vue'
         <BackButton />
       </div>
 
-      <div class="px-4 mx-auto max-w-screen-xl text-center py-25 lg:py-56">
+      <div class="px-4 mx-auto max-w-screen-xl text-center py-5 lg:py-56">
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
         >
