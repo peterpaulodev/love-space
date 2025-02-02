@@ -1,7 +1,7 @@
 <template>
   <div id="bg-polaroid-pink" class="overflow-hidden">
     <div class="flex flex-col items-center relative justify-center h-screen">
-      <figure class="relative w-full max-w-full gradient-top gradient-bottom">
+      <figure class="relative w-full max-w-full gradient-top gradient-bottom mt-4">
         <a href="#">
           <img class="w-full h-auto" src="../assets/images/header-background.jpg" alt="image description" />
         </a>
@@ -24,13 +24,13 @@
           </blockquote>
         </figcaption>
       </figure>
-      <div class="text-center absolute bottom-0 mb-7">
+      <div class="text-center absolute bottom-4 mb-7">
         <ScrollDownButton />
       </div>
     </div>
 
     <div class="flex flex-col items-center relative justify-center h-screen">
-      <figure class="relative w-full max-w-full gradient-top gradient-bottom">
+      <figure class="relative w-full max-w-full gradient-top gradient-bottom mt-4">
         <a href="#">
           <img class="w-full h-auto" src="../assets/images/header-background-2.jpg" alt="image description" />
         </a>
@@ -51,13 +51,13 @@
           </blockquote>
         </figcaption>
       </figure>
-      <div class="text-center absolute bottom-0 mb-7">
+      <div class="text-center absolute bottom-4 mb-7">
         <ScrollDownButton />
       </div>
     </div>
 
     <div class="flex flex-col items-center relative justify-center h-screen">
-      <figure class="relative w-full max-w-full gradient-top gradient-bottom">
+      <figure class="relative w-full max-w-full gradient-top gradient-bottom mt-4">
         <a href="#">
           <img class="w-full h-auto" src="../assets/images/header-background-2.jpg" alt="image description" />
         </a>
@@ -78,13 +78,13 @@
           </blockquote>
         </figcaption>
       </figure>
-      <div class="text-center absolute bottom-0 mb-7">
+      <div class="text-center absolute bottom-4 mb-7">
         <ScrollDownButton />
       </div>
     </div>
 
     <div class="flex flex-col items-center relative justify-center h-screen">
-      <figure class="relative w-full max-w-full gradient-top gradient-bottom">
+      <figure class="relative w-full max-w-full gradient-top gradient-bottom mt-4">
         <a href="#">
           <img class="w-full h-auto" src="../assets/images/header-background-2.jpg" alt="image description" />
         </a>
@@ -106,7 +106,7 @@
         </figcaption>
       </figure>
 
-      <div class="text-center absolute bottom-0 mb-7">
+      <div class="text-center absolute bottom-4 mb-7">
         <NextButton />
       </div>
     </div>
