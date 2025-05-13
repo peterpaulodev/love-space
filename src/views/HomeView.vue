@@ -24,7 +24,9 @@ const checkPassword = () => {
         >
           Bem-vinda, meu amor!
         </h1>
-        <p class="mb-4 sm:mb-15 text-base sm:text-lg lg:text-xl font-normal text-gray-100 sm:px-8 lg:px-48">
+        <p
+          class="mb-4 sm:mb-15 text-base sm:text-lg lg:text-xl font-normal text-gray-100 sm:px-8 lg:px-48"
+        >
           Acesse com a nossa senha secreta. ❤️
         </p>
         <div class="flex flex-col items-center justify-center gap-2">
@@ -60,10 +62,23 @@ const checkPassword = () => {
       </div>
     </div>
 
-    <div id="hiddenContent" class="transition fade-in" :class="show ? '' : 'hidden'">
+    <div id="hiddenContent" class="fade-in-element" :class="show ? '' : 'hidden'">
       <header>
         <HeaderCarrousel />
       </header>
     </div>
   </main>
 </template>
+
+<style scoped>
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in-element {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out;
+}
+</style>

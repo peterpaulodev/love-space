@@ -72,9 +72,9 @@ import { RouterLink } from 'vue-router'
 
           <RouterLink
             to="/birthday"
-            class="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white/60 rounded-lg border focus:ring-4 focus:ring-gray-400"
+            class="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-lg border-2 border-yellow-300 shadow-lg transform hover:scale-105 transition-transform duration-300 focus:ring-4 focus:ring-yellow-400"
           >
-            13/05/2025 🔒
+            🎉 13/05/2025! 🎈
           </RouterLink>
         </div>
       </div>
